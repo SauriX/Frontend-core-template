@@ -1,0 +1,314 @@
+{
+    "Logout": "Log out",
+    "welcome": "Welcome back",
+    "select": "Select",
+    "cancel": "Cancel",
+    "now": "Now",
+    "home": {
+        "title": "Home",
+        "latest_transactions": "Latest Transactions",
+        "table": {
+            "id": "Transaction ID",
+            "currency": "Currency",
+            "amount": "Amount",
+            "type": "Type",
+            "date": "Date",
+            "types": {
+                "CHARGE": "Charge",
+                "CANCEL": "Refund",
+                "DEPOSIT": "Deposit"
+                
+            },
+            "previousBalance": "Previous Balance",
+            "currentBalance": "Current Balance"          
+        }
+    },
+    "menu": {
+        "home": "Home",
+        "entities": "Entities",
+        "forms": "Forms",
+        "guide": "Guide",
+        "balance": "Balance",
+        "transactions": "Transactions",
+        "settings": "Settings",
+        "expand": "Expand",
+        "collapse": "Collapse"
+    },
+    "cardInfo": {
+        "loading": "Loading card data...",
+        "labels": {
+            "charge": "Charges",
+            "deposit": "Deposit",
+            "cancel": "Refund",
+            "removes": "Adjustments"
+        }
+    },
+    "balance": {
+        "title": "Balance",
+        "filters": {
+            "title": "Filters",
+            "currency_label": "Currency",
+            "currency_placeholder": "Select an option",
+            "year_label": "End Date"
+        },
+        "chart": {
+            "title": "Transactions per month",
+            "deposits": "Deposits",
+            "charges": "Charges",
+            "refunds": "Refunds",
+            "months": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ]
+        }
+    },
+    "login": {
+        "title": "Sign In",
+        "subtitle": "Please sign in to access your account",
+        "email_label": "Email Address",
+        "email_placeholder": "Enter your email",
+        "password_label": "Password",
+        "password_placeholder": "Enter your password",
+        "button": "Log In"
+    },
+    "mfa": {
+        "title": "Second Step Verification",
+        "subtitle": "Enter the verification code we sent you",
+        "label": "Verification Code",
+        "placeholder": "Enter the code",
+        "resend_button": "Resend Code",
+        "resend_timer": "Resend code in {seconds}s",
+        "verify_button": "Verify"
+    },
+    "transactions": {
+        "title": "Transaction History",
+        "latest_transactions": "Latest transactions",
+        "searching": "Searching...",
+        "filter": {
+            "title": "Filters",
+            "transactionType": "Transaction Type",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "search": "Search",
+            "all": "All"
+        },
+        "table": {
+            "id": "Transaction ID",
+            "currency": "Currency",
+            "amount": "Amount",
+            "type": "Type",
+            "date": "Date",
+            "types": {
+                "CHARGE": "CHARGE",
+                "CANCEL": "REFUND",
+                "DEPOSIT": "DEPOSIT",
+                "REMOVE": "ADJUSTMENTS"
+            },
+            "actions": "Actions",
+            "items": "Items per page",
+            "view": "View"
+        },
+        "errors": {
+            "dateFilterTitle": "Date filter error",
+            "invalidDates": "Start/end date must be valid",
+            "startAfterEnd": "Start date must be earlier than or equal to end date",
+            "endAfterToday": "End date must be today or earlier",
+            "startAfterToday": "Start date must be today or earlier"
+        }
+    },
+    "transactionDetail": {
+        "title": "Transaction Details",
+        "back": "Back",
+        "download": "Download",
+        "downloadSuccess": "Transaction downloaded successfully",
+        "id": "Transaction ID",
+        "reference": "Reference",
+        "type": "Transaction Type",
+        "currency": "Currency",
+        "amount": "Amount",
+        "exchangeRate": "Currency Exchange Rate",
+        "convertedAmount": "Converted Amount MXN",
+        "date": "Date",
+        "description": "Description",
+        "balanceBefore": "Balance Before",
+        "balanceAfter": "Balance After",
+        "errors": {
+            "invalidTransactionId": "Invalid or unspecified transactionId"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "table": {
+            "id": "ID",
+            "name": "Name",
+            "type": "Type",
+            "currency": "Currency",
+            "notifications": "Active Notifications",
+            "minBalance": "Minimum Balance",
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "settingsDetail": {
+        "title": "Configuration Detail",
+        "minAmount": "Minimum Amount:",
+        "active": "Active",
+        "inactive": "Inactive",
+        "cancel": "Cancel",
+        "save": "Save",
+        "info": "Information",
+        "success": "Configuration updated successfully",
+        "failure": "Configuration could not be updated",
+        "errors": {
+            "invalidAmount": "Minimum amount must not be empty and must be greater than 0"
+        }
+    },
+    "messages": {
+        "forbidden": "You do not have permission to perform this action",
+        "created": "Data was successfully created",
+        "updated": "Data was successfully saved",
+        "deleted": "Record successfully deleted",
+        "serverError": "Server error, please contact your system administrator",
+        "invalidLink": "The link is not valid",
+        "login": "Please log in",
+        "sessionExpired": "Session expired, please log in again",
+        "networkError": "Network error - Make sure you are connected to the Internet",
+        "systemError": "System error",
+        "emailFailed": "There was an error sending the email. Check the configuration",
+        "nothingToExport": "No records found to export",
+        "passwordSent": "Password setup email has been sent",
+        "logging": "Logging in",
+        "notFound": "The resource you are looking for is not available",
+        "emptyPermissions": "You must select at least one permission",
+        "originNotFound": "You must select an origin",
+        "destinationNotFound": "You must select a destination",
+        "timeout": "The request has timed out. Please try again",
+        "confirmations": {
+            "enableTitle": "Do you want to activate the record?",
+            "enable": "The record will be activated",
+            "visible": "Visible",
+            "visibleweb": "Visible Web",
+            "disableTitle": "Do you want to deactivate the record?",
+            "disable": "The record can be reactivated later",
+            "duplicate": "The serial number is already registered",
+            "deleteTitle": "Do you want to delete the record?",
+            "delete": "The record will be deleted",
+            "passwordTitle": "Do you want to send the password reset email?",
+            "password": "The configuration email will be sent",
+            "graphic": "Show Graph",
+            "nographic": "Graph will not be shown",
+            "required": "The record will now be required",
+            "unrequired": "The record will no longer be required",
+            "deltaCheck": "Delta Check has been activated",
+            "deltaUncheck": "Delta Check has been deactivated",
+            "showFormato": "Show Format has been activated",
+            "unshownFormato": "Show Format has been deactivated",
+            "invoiceEnabled": "Status is Active",
+            "invoiceDisabled": "Status is Expired"
+        },
+        "warnings": {
+            "initialValue": "Initial value cannot be greater than final",
+            "finalValue": "Initial value cannot be equal to final",
+            "minimumValue": "Critical minimum value cannot be equal to maximum",
+            "maximumValue": "Critical minimum value cannot be greater than maximum",
+            "initialMinimumValue": "Critical minimum value cannot be equal to or greater than initial value",
+            "finalMaximumValue": "Critical maximum value cannot be equal to or less than final value"
+        },
+        "errors": {
+            "signUp": "Sign up error",
+            "update": "Update error",
+            "loginFailed": "Unsuccessful login",
+            "otpFailed": "Verification failed",
+            "userAgencyNotFound": "The user does not belong to a valid agency"
+        }
+    },
+    "validation": {
+        "required": "The field is required.",
+        "invalidFormat": "The field format is invalid.",
+        "string": "The field must be a text string.",
+        "number": "The field must be a number.",
+        "boolean": "The field must be a boolean.",
+        "object": "The field must be an object.",
+        "array": "The field must be an array.",
+        "date": "The field must be a valid date.",
+        "curp": {
+            "invalid": "The CURP format '{value}' is invalid."
+        },
+        "rfc": {
+            "invalid": "The RFC format '{value}' is invalid."
+        },
+        "email": {
+            "invalid": "The email format '{value}' is invalid."
+        },
+        "mobile": {
+            "invalid": "The format '{value}' is invalid."
+        }
+    },
+    "payments": {
+        "recharge": {
+            "title": "Recharge",
+            "cardData": "Card Information",
+            "amount": "Amount",
+            "amountPlaceholder": "100.00",
+            "cardNumber": "Card Number",
+            "cardNumberPlaceholder": "1234 5678 9012 3456",
+            "expiry": "Exp.",
+            "expiryPlaceholder": "MM/YY",
+            "cvv": "CVV",
+            "cvvPlaceholder": "123",
+            "buyerData": "Buyer Information",
+            "phone": "Phone",
+            "phonePlaceholder": "+1 555 1234",
+            "firstName": "First Name",
+            "firstNamePlaceholder": "John",
+            "lastName": "Last Name",
+            "lastNamePlaceholder": "Doe",
+            "email": "Email",
+            "emailPlaceholder": "user{'@'}example.com",
+            "country": "Country",
+            "state": "State",
+            "selectPlaceholder": "Select",
+            "pay": "Pay",
+            "flipCard": "Click on the card to flip it",
+            "cardNumberLabel": "card number",
+            "cardholderName": "cardholder name",
+            "expiration": "expiration"
+        },
+        "error": {
+            "header": "Header is required",
+            "agency": "Agency is required",
+            "client": "Client is required",
+            "currency": "You must select a currency",
+            "body": "Body is required",
+                "amount": "Recharge amount is required",
+            "payments": "Payment data is required",
+            "cardNumber": "Card number is required",
+            "cvv": "CVV is required",
+            "expireDate": "Expiry date is required",
+            "expireMonth": "Expiry month is required",
+            "expireYear": "Expiry year is required",
+            "agencyBuyer": "Buyer data is required",
+            "firstName": "First name is required",
+            "lastName": "Last name is required",
+            "email": "A valid email is required",
+            "telephone": "Telephone is required",
+            "telephoneNumber": "Telephone number is required",
+            "address": "Address is required",
+            "country": "Country must be selected",
+            "state": "State must be selected",
+            "bankCharge": "Bank charge is required",
+            "paymentMethod": "Payment method is required"
+
+        }
+    }
+}

@@ -1,0 +1,336 @@
+{
+    "Logout": "Cerrar sesión",
+    "welcome": "Bienvenido de nuevo",
+    "select": "Seleccionar",
+    "cancel": "Cancelar",
+    "now": "Hoy",
+    "home": {
+        "title": "Inicio",
+        "latest_transactions": "Últimas transacciones",
+        "table": {
+            "id": "ID de transacción",
+            "currency": "Moneda",
+            "amount": "Cantidad",
+            "type": "Tipo",
+            "date": "Fecha",
+            "types": {
+                "CHARGE": "CARGO",
+                "CANCEL": "REEMBOLSO",
+                "DEPOSIT": "DEPÓSITO"
+            },
+            "previousBalance": "Saldo Anterior",
+            "currentBalance": "Saldo Actual"          
+        }
+    },
+    "menu": {
+        "home": "Inicio",
+        "entities": "Entidades",
+        "forms": "Formularios",
+        "guide": "Guía",
+        "balance": "Balance",
+        "transactions": "Transacciones",
+        "settings": "Configuración",
+        "expand": "Expandir",
+        "collapse": "Ocultar"
+    },
+    "cardInfo": {
+        "loading": "Cargando datos de la tarjeta...",
+        "labels": {
+            "charge": "Cargos",
+            "deposit": "Depósito",
+            "cancel": "Reembolso",
+            "removes": "Ajustes"
+            
+        }
+    },
+    "balance": {
+        "title": "Balance",
+        "filters": {
+            "title": "Filtros",
+            "currency_label": "Moneda",
+            "currency_placeholder": "Seleccione una opción",
+            "year_label": "Fecha de finalización"
+        },
+        "chart": {
+            "title": "Transacciones por mes",
+            "deposits": "Depósitos",
+            "charges": "Cargos",
+            "refunds": "Reembolsos",
+            "months": [
+                "Enero",
+                "Febrero",
+                "Marzo",
+                "Abril",
+                "Mayo",
+                "Junio",
+                "Julio",
+                "Agosto",
+                "Septiembre",
+                "Octubre",
+                "Noviembre",
+                "Diciembre"
+            ]
+        }
+    },
+    "login": {
+        "title": "Iniciar Sesión",
+        "subtitle": "Por favor inicie sesión para acceder a su cuenta",
+        "email_label": "Correo Electrónico",
+        "email_placeholder": "Escribe tu correo",
+        "password_label": "Contraseña",
+        "password_placeholder": "Escribe tu contraseña",
+        "button": "Acceder"
+    },
+    "mfa": {
+        "title": "Verificación de segundo paso",
+        "subtitle": "Ingrese el código de verificación que le enviamos",
+        "label": "Código de verificación",
+        "placeholder": "Escribe el código",
+        "resend_button": "Reenviar código",
+        "resend_timer": "Reenviar código en {seconds}s",
+        "verify_button": "Verificar"
+    },
+    "transactions": {
+        "title": "Historial de Transacciones",
+        "latest_transactions": "Últimas transacciones",
+        "searching": "Buscando...",
+        "filter": {
+            "title": "Filtros",
+            "transactionType": "Tipo de Transacción",
+            "startDate": "Fecha de inicio",
+            "endDate": "Fecha de finalización",
+            "search": "Buscar",
+            "all": "Todos"
+        },
+        "table": {
+            "id": "ID de transacción",
+            "currency": "Moneda",
+            "amount": "Cantidad",
+            "type": "Tipo",
+            "date": "Fecha",
+            "types": {
+                "CHARGE": "CARGO",
+                "CANCEL": "REEMBOLSO",
+                "DEPOSIT": "DEPÓSITO",
+                "REMOVE":"AJUSTES"
+            },
+            "actions": "Acciones",
+            "items": "Elementos por página",
+            "view": "Ver"
+        },
+        "errors": {
+            "dateFilterTitle": "Error de filtros de fecha",
+            "invalidDates": "La fecha inicio/finalización deben ser fechas válidas",
+            "startAfterEnd": "La fecha inicio debe ser mayor o igual a la fecha de finalización",
+            "endAfterToday": "La fecha fin debe ser menor o igual a la fecha actual",
+            "startAfterToday": "La fecha inicio debe ser menor o igual a la fecha actual"
+        }
+    },
+    "transactionDetail": {
+        "title": "Detalles de la Transacción",
+        "back": "Regresar",
+        "download": "Descargar",
+        "downloadSuccess": "La transacción se ha descargado correctamente",
+        "id": "ID de Transacción",
+        "reference": "Referencia",
+        "type": "Tipo de Transacción",
+        "currency": "Moneda",
+        "amount": "Monto",
+        "exchangeRate": "Tasa de Cambio de Moneda",
+        "convertedAmount": "Monto Convertido MXN",
+        "date": "Fecha",
+        "description": "Descripción",
+        "balanceBefore": "Balance Antes",
+        "balanceAfter": "Balance Después",
+        "errors": {
+            "invalidTransactionId": "transactionId inválido o no especificado"
+        }
+    },
+    "walletDataView": {
+        "data": {
+            "title": {
+                "form": {
+                    "cardData": "Datos de la Tarjeta"
+                }
+            },
+            "label": {
+                "walletType": "Tipo de Wallet",
+                "name": "Nombre",
+                "monthValidity": "Mes de Vencimiento",
+                "yearValidity": "Año de Vencimiento"
+            },
+            "button": {
+                "cancel": "Cancelar",
+                "save": "Guardar"
+            },
+            "error": {
+                "monthValidity": "La fecha de vencimiento es anterior o igual a la actual.",
+                "name": "El nombre del wallet no puede estar vacío."
+            }
+        }
+    },
+    "settings": {
+        "title": "Lista de Wallets",
+        "table": {
+            "id": "ID",
+            "name": "Nombre",
+            "type": "Tipo",
+            "currency": "Moneda",
+            "notifications": "Notificaciones Activas",
+            "minBalance": "Saldo Mínimo",
+            "yes": "Sí",
+            "no": "No"
+        }
+    },
+    "settingsDetail": {
+        "title": "Detalle de Configuración",
+        "minAmount": "Monto Mínimo:",
+        "active": "Activo",
+        "inactive": "Inactivo",
+        "cancel": "Cancelar",
+        "save": "Guardar",
+        "info": "Información",
+        "success": "Se actualizó la configuración satisfactoriamente",
+        "failure": "No se pudo actualizar la configuración",
+        "errors": {
+            "invalidAmount": "El monto mínimo no debe ser vacío y debe ser mayor a 0"
+        }
+    },
+    "messages": {
+        "forbidden": "No tiene permisos para realizar esta acción",
+        "created": "Los datos se crearon con éxito",
+        "updated": "Los datos se guardaron con éxito",
+        "deleted": "Registro eliminado con éxito",
+        "serverError": "Error en el servidor, contacta a tu administrador de sistemas",
+        "invalidLink": "El enlace no es válido",
+        "login": "Favor de iniciar sesión",
+        "sessionExpired": "La sesión expiró, por favor inicia sesión nuevamente",
+        "networkError": "Error de red - Asegúrate de tener conexión a Internet",
+        "systemError": "Error de sistema",
+        "emailFailed": "Hubo un error al enviar el correo. Revise la configuración",
+        "nothingToExport": "No se encontraron registros para exportar",
+        "passwordSent": "Se envió el correo para la configuración de la contraseña",
+        "logging": "Iniciando sesión",
+        "notFound": "El recurso que buscas no está disponible",
+        "emptyPermissions": "Debe seleccionar al menos un permiso",
+        "originNotFound": "Debe seleccionar un origen",
+        "destinationNotFound": "Debe seleccionar un destino",
+        "timeout": "La solicitud ha excedido el tiempo de espera. Por favor, intente de nuevo",
+        "confirmations": {
+            "enableTitle": "¿Desea activar el registro?",
+            "enable": "El registro será activado",
+            "visible": "Visible",
+            "visibleweb": "Visible Web",
+            "disableTitle": "¿Desea desactivar el registro?",
+            "disable": "El registro podrá ser reactivado más tarde",
+            "duplicate": "El número de serie ya se encuentra registrado",
+            "deleteTitle": "¿Desea eliminar el registro?",
+            "delete": "El registro será eliminado",
+            "passwordTitle": "¿Desea enviar el correo para cambio de contraseña?",
+            "password": "Se enviará el correo de configuración",
+            "graphic": "Mostrar Gráfica",
+            "nographic": "No se mostrará la gráfica",
+            "required": "El registro ahora será requerido",
+            "unrequired": "El registro ya no será requerido",
+            "deltaCheck": "Delta Check ha sido activado",
+            "deltaUncheck": "Delta Check ha sido desactivado",
+            "showFormato": "Mostrar Formato ha sido activado",
+            "unshownFormato": "Mostrar Formato ha sido desactivado",
+            "invoiceEnabled": "El estatus se encuentra en Vigente",
+            "invoiceDisabled": "El estatus se encuentra en Caducado"
+        },
+        "warnings": {
+            "initialValue": "El valor inicial no puede ser mayor a final",
+            "finalValue": "El valor inicial no puede ser igual a final",
+            "minimumValue": "El valor crítico mínimo no puede ser igual al máximo",
+            "maximumValue": "El valor crítico mínimo no puede ser mayor al máximo",
+            "initialMinimumValue": "El valor crítico mínimo no puede ser igual o mayor al valor inicial",
+            "finalMaximumValue": "El valor crítico máximo no puede ser igual o menor al valor final"
+        },
+        "errors": {
+            "signUp": "Error al registrar usuario",
+            "update": "Error al actualizar",
+            "loginFailed": "Inicio de sesión fallido",
+            "otpFailed": "Verificación fallida",
+            "userAgencyNotFound": "El usuario no pertenece a una agencia válida"
+        }
+    },
+    "validation": {
+        "required": "El campo es requerido.",
+        "invalidFormat": "El formato del campo no es válido.",
+        "string": "El campo debe ser una cadena de texto.",
+        "number": "El campo debe ser un número.",
+        "boolean": "El campo debe ser un booleano.",
+        "object": "El campo debe ser un objeto.",
+        "array": "El campo debe ser un arreglo.",
+        "date": "El campo debe ser una fecha válida.",
+        "curp": {
+            "invalid": "El formato de la CURP '{value}' no es válido."
+        },
+        "rfc": {
+            "invalid": "El formato del RFC '{value}' no es válido."
+        },
+        "email": {
+            "invalid": "El formato del email '{value}' no es válido."
+        },
+        "mobile": {
+            "invalid": "El formato '{value}' no es válido."
+        }
+    },
+    "payments": {
+        "recharge": {
+            "title": "Recarga",
+            "cardData": "Datos de Tarjeta",
+            "amount": "Monto",
+            "amountPlaceholder": "100.00",
+            "cardNumber": "Número de tarjeta",
+            "cardNumberPlaceholder": "1234 5678 9012 3456",
+            "expiry": "Venc.",
+            "expiryPlaceholder": "MM/AA",
+            "cvv": "CVV",
+            "cvvPlaceholder": "123",
+            "buyerData": "Datos del Comprador",
+            "phone": "Teléfono",
+            "phonePlaceholder": "+52 55 1234",
+            "firstName": "Nombre",
+            "firstNamePlaceholder": "Juan",
+            "lastName": "Apellido",
+            "lastNamePlaceholder": "Pérez",
+            "email": "Email",
+            "emailPlaceholder": "usuario{'@'}ejemplo.com",
+            "country": "País",
+            "state": "Estado",
+            "selectPlaceholder": "Seleccione",
+            "pay": "Pagar",
+            "flipCard": "Haz clic en la tarjeta para voltearla",
+            "cardNumberLabel": "número de tarjeta",
+            "cardholderName": "nombre del titular",
+            "expiration": "vencimiento"
+        },
+        "error": {
+            "header": "El header es requerido",
+            "agency": "La agencia es requerida",
+            "client": "El cliente es requerido",
+            "currency": "Debe seleccionar una moneda",
+            "body": "El body es requerido",
+            "amount": "Debe ingresar el monto de recarga",
+            "payments": "Los datos de pago son requeridos",
+            "cardNumber": "El número de tarjeta es requerido",
+            "cvv": "El CVV es requerido",
+            "expireDate": "La fecha de vencimiento es requerida",
+            "expireMonth": "El mes de vencimiento es requerido",
+            "expireYear": "El año de vencimiento es requerido",
+            "agencyBuyer": "Los datos del comprador son requeridos",
+            "firstName": "El nombre es requerido",
+            "lastName": "El apellido es requerido",
+            "email": "Debe ingresar un email válido",
+            "telephone": "El teléfono es requerido",
+            "telephoneNumber": "El número de teléfono es requerido",
+            "address": "La dirección es requerida",
+            "country": "Debe seleccionar un país",
+            "state": "Debe seleccionar un estado",
+            "bankCharge": "El cargo bancario es requerido",
+            "paymentMethod": "El método de pago es requerido"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+body {
+    background-color: #F3F9FF;
+}
+
+
+/* Clase para inputs con errores */
+.form-control.is-invalid {
+    border-color: #dc3545;
+    /* Borde rojo */
+    padding-right: calc(1.5em + .75rem);
+    /* Espacio para ícono de error */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+    /* Ícono de error (Bootstrap-like) */
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+/* Mensaje de error */
+.error-message {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+    /* Texto rojo */
+}
+
+/* Clase para el contenedor del grupo de formulario cuando hay error (opcional, para estilos más avanzados) */
+.form-group.has-error .form-control {
+    border-color: #dc3545;
+}

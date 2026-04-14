@@ -1,0 +1,14 @@
+<svg width="750" height="471" xmlns="http://www.w3.org/2000/svg" xmlns:undefined="http://www.bohemiancoding.com/sketch/ns" xml:space="preserve" enable-background="new 0 0 750 471" version="1.1">
+ <title>diners</title>
+
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>Layer 1</title>
+  <g  id="diners">
+   <path d="m588.934,196.947c0,-99.416 -82.98,-168.133 -173.896,-168.1l-78.241,0c-92.003,-0.033 -167.73,68.705 -167.73,168.1c0,90.931 75.729,165.641 167.73,165.203l78.241,0c90.913,0.437 173.896,-74.293 173.896,-165.203l0,0z" fill="#0079BE"  id="Shape-path"/>
+   <path d="m337.281,42.932c-84.069,0.026 -152.193,68.308 -152.215,152.58c0.021,84.258 68.145,152.532 152.215,152.559c84.088,-0.026 152.229,-68.301 152.239,-152.559c-0.012,-84.274 -68.151,-152.554 -152.239,-152.58l0,0z" fill="#FFFFFF"  id="Shape-path_1_"/>
+   <path d="m241.066,195.098c0.08,-41.18 25.747,-76.296 61.94,-90.25l0,180.479c-36.193,-13.946 -61.861,-49.044 -61.94,-90.229zm131,90.275l0,-180.525c36.208,13.921 61.915,49.057 61.981,90.256c-0.066,41.212 -25.773,76.322 -61.981,90.269z" fill="#0079BE"  id="Path"/>
+  </g>
+  <text transform="matrix(2.93941 0 0 2.97606 -431.518 -732.702)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Spartan'" font-size="24" id="svg_1" y="388.81188" x="232.02573" stroke-width="0" fill="#000000">Terminal</text>
+ </g>
+</svg>

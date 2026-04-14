@@ -1,0 +1,17 @@
+nameOverride: gx-xite-wallet-client-b2b
+
+appType:
+  isXapi: false
+  prefix: ""
+
+virtualService:
+  host: qa-xite-wallet-client-b2b.xperienciasxcaret.mx
+deployment:
+  containerPort: 80
+env:
+  SerilogData__Template: "log-wallet-client-b2b"
+  SerilogData__SecretUser: "DEV_EV_ELK"
+  ASPNETCORE_ENVIRONMENT: "Develop" 
+
+
+
