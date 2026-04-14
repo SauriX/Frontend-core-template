@@ -129,19 +129,7 @@ const confirmModal = () => {
 
 
 }
-const SivexUSerNotice = () => {
-  modaldata.value.showCancel = false;
-  modaldata.value.icon = 'bi-x-circle-fill';
-  modaldata.value.title = "¡Error!"
-  modaldata.value.parrafos = [
-    'Su usuario no esta registrado en Sivex',
-    'Comuniquese con el administrador para darse de alta'
-  ];
-  modaldata.value.theme = 'warning';
-  modaldata.value.oktext = 'Aceptar';
-  modaldata.value.canceltext = 'Cancelar';
-  modalNotice.open();
-}
+
 
 const logout = async () => {
   await logoutFromAuth();

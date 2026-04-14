@@ -14,9 +14,10 @@
     "useDefineForClassFields": true,
     "sourceMap": true,
     "resolveJsonModule": true,
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "types": [
-      "vite/client",
+      "vite/client"
     ],
     "paths": {
       "@/*": [
